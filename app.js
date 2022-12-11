@@ -56,10 +56,10 @@ app.get("/", function (req, res) {
 app.get("/details", function (req, res) {
   console.log(a);
   scholarDetails = [
-    { Name: a[0].Name, RollNo: 42138, College: 'BITS' },
-    { Name: a[1].Name, RollNo: 38, College: 'BITS' },
-    { Name: a[2].Name, RollNo: 60, College: 'BITS' }
-  ]
+  { Name: a[0].Name, RollNo: 48, College: 'BITS' },
+  { Name: a[1].Name, RollNo: 38, College: 'BITS' },
+  { Name: a[2].Name, RollNo: 60, College: 'BITS' }
+]
    res.json(scholarDetails);
 });
 
